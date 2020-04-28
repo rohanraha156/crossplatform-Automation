@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-28T15:53:28 IST" name="BlogSuite" finished-at="2020-04-28T15:54:10 IST" duration-ms="42399">
+    <groups>
+    </groups>
+    <test started-at="2020-04-28T15:53:28 IST" name="SafariTest" finished-at="2020-04-28T15:53:50 IST" duration-ms="22271">
+      <class name="testNG.LambdaTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.LambdaTest@77167fb7]" started-at="2020-04-28T15:53:28 IST" name="setUp" finished-at="2020-04-28T15:53:36 IST" duration-ms="8459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macos High Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimple()[pri:0, instance:testNG.LambdaTest@77167fb7]" started-at="2020-04-28T15:53:36 IST" name="testSimple" finished-at="2020-04-28T15:53:48 IST" duration-ms="11874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG.LambdaTest@77167fb7]" started-at="2020-04-28T15:53:48 IST" name="tearDown" finished-at="2020-04-28T15:53:50 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG.LambdaTest -->
+    </test> <!-- SafariTest -->
+    <test started-at="2020-04-28T15:53:28 IST" name="ChromeTest" finished-at="2020-04-28T15:53:50 IST" duration-ms="22720">
+      <class name="testNG.LambdaTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.LambdaTest@29176cc1]" started-at="2020-04-28T15:53:28 IST" name="setUp" finished-at="2020-04-28T15:53:36 IST" duration-ms="8387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimple()[pri:0, instance:testNG.LambdaTest@29176cc1]" started-at="2020-04-28T15:53:36 IST" name="testSimple" finished-at="2020-04-28T15:53:48 IST" duration-ms="12398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG.LambdaTest@29176cc1]" started-at="2020-04-28T15:53:48 IST" name="tearDown" finished-at="2020-04-28T15:53:50 IST" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG.LambdaTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2020-04-28T15:53:28 IST" name="FirefoxTest" finished-at="2020-04-28T15:54:10 IST" duration-ms="42399">
+      <class name="testNG.LambdaTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.LambdaTest@7fc2413d]" started-at="2020-04-28T15:53:28 IST" name="setUp" finished-at="2020-04-28T15:53:56 IST" duration-ms="27986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimple()[pri:0, instance:testNG.LambdaTest@7fc2413d]" started-at="2020-04-28T15:53:56 IST" name="testSimple" finished-at="2020-04-28T15:54:08 IST" duration-ms="12117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG.LambdaTest@7fc2413d]" started-at="2020-04-28T15:54:08 IST" name="tearDown" finished-at="2020-04-28T15:54:10 IST" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG.LambdaTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- BlogSuite -->
+</testng-results>
